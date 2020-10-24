@@ -1,0 +1,20 @@
+{
+  "name": "howittastes",
+  "version": "1.0.0",
+  "description": "Excercises to get a first taste of the way of thinking involved in programming. Uses javascript with typescript.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npm run build && cd src-cordova && cordova run browser",
+    "build": "tsc --build tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "excercises"
+  ],
+  "author": "Nik",
+  "license": "ISC",
+  "dependencies": {
+    "cordova": "^10.0.0",
+    "typescript": "^4.0.3"
+  }
+}
