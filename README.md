@@ -8,4 +8,4 @@ Wireframe for programming excercices. Uses javascript with typescript for source
 3. npm install
 4. cd src-cordova && npm install
 
-To run your code in browser: cordova run browser
+To run your code in browser, enter npm run serve inside root directory
